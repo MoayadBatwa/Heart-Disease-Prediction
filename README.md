@@ -31,19 +31,19 @@ The key features include `age`, `sex`, `cp` (chest pain type), `trestbps` (resti
 
 (This section will be populated when you run the script!)
 
-* **Best Model:** The script automatically determines the best model. In this run, the **[Best Model Name]** was the top performer, achieving an accuracy of **[XX.X%]**.
-* **Model Performance:** The model showed strong performance, with an **AUC score of [X.XX]**. The confusion matrix showed it was highly effective at correctly identifying both healthy and at-risk patients.
+* **Best Model:** The script automatically determines the best model. In this run, the **Random Forest** was the top performer, achieving an accuracy of **0.8111**.
+* **Model Performance:** The model showed strong performance, with an **AUC score of 0.90**. The confusion matrix showed it was highly effective at correctly identifying both healthy and at-risk patients.
 * **Key Predictors of Heart Disease:** The feature importance analysis revealed that the top 3 most significant medical factors for predicting heart disease are:
-    1.  **[Top Feature 1]**
-    2.  **[Top Feature 2]**
-    3.  **[Top Feature 3]**
+    1.  **thalach**
+    2.  **thal**
+    3.  **oldpeak**
 
 ## 🔧 How to Run
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/MoayadBatwa/YOUR-REPOSITORY-NAME.git](https://github.com/MoayadBatwa/YOUR-REPOSITORY-NAME.git)
-    cd YOUR-REPOSITORY-NAME
+    git clone [https://github.com/MoayadBatwa/Heart-Disease-Prediction.git](https://github.com/MoayadBatwa/Heart-Disease-Prediction.git)
+    cd Heart-Disease-Prediction
     ```
 
 2.  **Install dependencies:**
@@ -59,7 +59,7 @@ The key features include `age`, `sex`, `cp` (chest pain type), `trestbps` (resti
 4.  **Run the script:**
     Execute the main Python script from your terminal. The script will run the full pipeline from loading to analysis and will display all charts and print all findings.
     ```bash
-    python your_script_name.py
+    python Heart-Disease-Prediction.py
     ```
 
 ## 👤 Author
