@@ -59,7 +59,7 @@ The key features include `age`, `sex`, `cp` (chest pain type), `trestbps` (resti
 4.  **Run the script:**
     Execute the main Python script from your terminal. The script will run the full pipeline from loading to analysis and will display all charts and print all findings.
     ```bash
-    python Heart-Disease-Prediction.py
+    python main.py
     ```
 
 ## 👤 Author
